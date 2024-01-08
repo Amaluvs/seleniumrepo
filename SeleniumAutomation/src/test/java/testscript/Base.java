@@ -8,7 +8,8 @@ public class Base
 	public WebDriver driver;
 	public void initializeBrowser()
 	{
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Amalu\\eclipse-workspace\\SeleniumAutomation\\src\\main\\resources\\resources\\chromedriver.exe" );
+		//System.setProperty("webdriver.chrome.driver","C:\\Users\\Amalu\\eclipse-workspace\\SeleniumAutomation\\src\\main\\resources\\resources\\chromedriver.exe" );
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Amalu\\git\\seleniumrepo\\SeleniumAutomation\\src\\main\\resources\\resources\\chromedriver.exe" );
 	driver =new ChromeDriver();
 	driver.get("https://selenium.obsqurazone.com/simple-form-demo.php");
 	driver.manage().window().maximize();

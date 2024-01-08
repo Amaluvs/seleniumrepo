@@ -14,7 +14,7 @@ public class NavigationCommands extends Base
 		String title=driver.getTitle();
 		String url=driver.getCurrentUrl();
 		String pagesource=driver.getPageSource();
-		
+		//s
 	}
 
 	public static void main(String[] args) 

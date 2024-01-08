@@ -7,17 +7,18 @@ public class Locators extends Base
 {
 public void locatingMethods()
 {
+	//id
 WebElement showMessageButton=driver.findElement(By.id("button-one"));
 WebElement showMessageButton1=driver.findElement(By.id("button-two"));
 WebElement showMessageButton2=driver.findElement(By.id("single-input-field"));
 WebElement showMessageButton3=driver.findElement(By.id("value-a"));
 WebElement showMessageButton4=driver.findElement(By.id("value-b"));
-
+//byclassname
 WebElement showclass1=driver.findElement(By.className("header-top"));
 WebElement showclass2=driver.findElement(By.className("clearfix"));
 WebElement showclass3=driver.findElement(By.className("mb-sec"));
 WebElement showclass4=driver.findElement(By.className("navbar-brand"));
-
+//name
 WebElement name1=driver.findElement(By.name("viewport"));
 WebElement name2=driver.findElement(By.name("description"));
 WebElement name3=driver.findElement(By.name("keywords"));
